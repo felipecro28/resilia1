@@ -46,6 +46,18 @@ body{
     box-shadow: 0 5px 0 rgba(214, 218, 11, 0.897);
 }
 
+.welcome:hover{
+    text-decoration: underline;
+    color: white;
+    transition: 10s;
+}
+
+.aperte:hover{
+    color: white;
+    font-size: 20px;
+    transition: 6s;
+}
+
 .botaoInicial:hover{
     position: absolute;
     top: 60.2%;
