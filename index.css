@@ -28,7 +28,7 @@ body{
     margin-left: 40%;
 }
 
-#botaoInicial{
+.botaoInicial{
     position: absolute;
     text-align: center;
     text-decoration: none;
@@ -46,7 +46,7 @@ body{
     box-shadow: 0 5px 0 rgba(214, 218, 11, 0.897);
 }
 
-#botaoInicial:hover{
+.botaoInicial:hover{
     position: absolute;
     top: 60.2%;
     color: black;
