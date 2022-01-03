@@ -3,52 +3,51 @@ body{
     background-size: cover;
 }
 
+.texto{
+    width: 1000px;
+    height: 480px;
+    margin-top: 80px;
+    margin-left: 160px;
+}
 
-.welcome{
-    width: fit-content;
+h1{
     text-transform: uppercase;
     text-decoration: underline;
     color: rgba(241, 245, 9, 0.993);
     font-family: 'Henny Penny', cursive;
-    font-size: 20px;
+    font-size: 60px;
     text-align: center;
-    font-weight: lighter;
-    margin-top: 15%;
-    margin-left: 17%;
 }
 
-.aperte{
-    width: fit-content;
+p{
     text-transform: uppercase;
-    font-weight: lighter;
-    color: rgba(241, 245, 9, 0.993);
+    color: rgb(82, 214, 6);
     font-family: 'Henny Penny', cursive;
+    padding: 2px;
     text-align: center;
-    margin-top: 50px;
-    margin-left: 40%;
 }
 
-#botaoInicial{
-    position: absolute;
+
+form{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botoes{
     text-align: center;
+    width: fit-content;
     text-decoration: none;
     font-family: 'Henny Penny', cursive;
     font-size: 24px;
-    color: #FFFF;
-    left: 45%;
-    top: 60%;
+    color: rgb(82, 214, 6);
     text-transform: uppercase;
-    width: 150px;
-    padding: 10px;
     background-color:rgba(241, 245, 9, 0.993);
     border: none;
     cursor: pointer;
-    box-shadow: 0 5px 0 rgba(214, 218, 11, 0.897);
 }
 
-#botaoInicial:hover{
-    position: absolute;
-    top: 60.2%;
+.botoes:hover{
     color: black;
-    transition: 4s;
+    transition: 5s;
+
 }
