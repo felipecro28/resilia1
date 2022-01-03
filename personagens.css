@@ -1,0 +1,87 @@
+body{
+    background-image: url(img/wppersonagens.jpg);
+    background-size: cover;
+}
+
+h1{
+    width: fit-content;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgba(241, 245, 9, 0.993);
+    font-family: 'Henny Penny', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 290px;
+}
+
+.divBruxos{
+    width: 970px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 180px;
+    margin-top: 40px;
+    
+}
+
+
+.imagemBruxo{
+    width: 200px;
+    height: 360px;
+    border: solid;
+    border-radius: 50px;
+    padding: 20px;
+    display: flex;
+    background-color: rgba(200, 206, 199, 0.219);
+}
+
+.nomePersonagens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgba(241, 245, 9, 0.993);
+    font-family: 'Henny Penny', cursive;
+    font-size: 18px;
+    list-style: none;
+}
+
+.harry{
+    position: absolute;
+    left: 237px;
+}
+
+
+.draco{
+    position:absolute;
+    left: 600px
+}
+
+.hermione{
+    position: absolute;
+    left: 930px;
+}
+
+.imagemBruxo:hover{
+    border: solid;
+    border-radius: 50px;
+    padding: 20px;
+    background-color: rgba(206, 203, 199, 0.877);
+}
+
+.botoes{
+    text-align: center;
+    width: fit-content;
+    text-decoration: none;
+    font-family: 'Henny Penny', cursive;
+    font-size: 16px;
+    color: rgb(82, 214, 6);
+    text-transform: uppercase;
+    background-color:rgba(241, 245, 9, 0.993);
+    border: solid 4px black;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 1250px;
+    margin-top: 6px;
+}
