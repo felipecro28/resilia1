@@ -41,15 +41,13 @@ body{
     width: 150px;
     padding: 10px;
     background-color:rgba(241, 245, 9, 0.993);
-    border: none;
+    border: solid 4px black;
     cursor: pointer;
-    box-shadow: 0 5px 0 rgba(214, 218, 11, 0.897);
 }
 
 .welcome:hover{
-    text-decoration: underline;
     color: white;
-    transition: 10s;
+    transition: 5s;
 }
 
 .aperte:hover{
