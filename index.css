@@ -7,12 +7,14 @@ body{
 .welcome{
     width: fit-content;
     text-transform: uppercase;
+    text-decoration: underline;
     color: rgba(241, 245, 9, 0.993);
-    font-family: 'Harry Potter', sans-serif;
+    font-family: 'Henny Penny', cursive;
+    font-size: 20px;
     text-align: center;
     font-weight: lighter;
     margin-top: 15%;
-    margin-left: 22%;
+    margin-left: 17%;
 }
 
 .aperte{
@@ -20,7 +22,7 @@ body{
     text-transform: uppercase;
     font-weight: lighter;
     color: rgba(241, 245, 9, 0.993);
-    font-family: 'Harry Potter', sans-serif;
+    font-family: 'Henny Penny', cursive;
     text-align: center;
     margin-top: 50px;
     margin-left: 40%;
@@ -28,7 +30,7 @@ body{
 
 #botaoInicial{
     position: absolute;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Henny Penny', cursive;
     font-size: 24px;
     color: #FFFF;
     left: 45%;
