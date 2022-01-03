@@ -1,0 +1,48 @@
+body{
+    background-image: url("img/hogwarts.jpg");
+    background-size: cover;
+}
+
+
+.welcome{
+    width: fit-content;
+    text-transform: uppercase;
+    color: rgba(241, 245, 9, 0.993);
+    font-family: 'Harry Potter', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 15%;
+    margin-left: 22%;
+}
+
+.aperte{
+    width: fit-content;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: rgba(241, 245, 9, 0.993);
+    font-family: 'Harry Potter', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 40%;
+}
+
+#botaoInicial{
+    position: absolute;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 24px;
+    color: #FFFF;
+    left: 45%;
+    top: 60%;
+    text-transform: uppercase;
+    width: 150px;
+    padding: 10px;
+    background-color:rgba(241, 245, 9, 0.993);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 5px 0 rgba(214, 218, 11, 0.897);
+}
+
+#botaoInicial:hover{
+    position: absolute;
+    top: 60.2%
+}
