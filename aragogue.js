@@ -10,13 +10,14 @@ function iniciarBatalha(){
             alert('Vamos, sigam em frente..')
             return location = ('florestaProibida2.html')
         } else if (feitico == 2){
-                alert('Wingardium....Leviosa......')
+                alert('Wingaaardium....Leviooosa......')
                 alert('Cara, a aranha está levitando...')
                 alert('Isso não vai aguentar por muito tempo..');
                 alert('AH NÃO!!! LÁ VEM ELA!');
                 return location = ('gameOverAragogue.html')
             } else if (feitico == 3) {
-                    alert('AH NÃO! Esse feitiço é indicado para abrir portas,cuidado com a Ara...');
+                    alert('Alohomora!!!')
+                    alert('AH NÃO! Esse feitiço é indicado para abrir portas,cuidado com a Aran...');
                     return location = ('gameOverAragogue.html');
                 } else {
                         alert('Parece que a sua varinha está quebrada. Digite uma opção válida.')
