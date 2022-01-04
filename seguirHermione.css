@@ -1,0 +1,49 @@
+body{
+    background-image: url(img/aragogue1.jpg);
+    background-size: cover;
+}
+
+h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgba(241, 245, 9, 0.993);
+    font-family: 'Henny Penny', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.paragrafos{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(248, 245, 245, 0.404);
+    border: solid 4px;
+    font-weight: bolder;
+    font-size: 12px;
+    margin-left: 230px;
+    padding: 5px;
+}
+
+p{
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Henny Penny', cursive;
+    text-align: center;
+}
+
+.iniciarBatalha{
+    font-size: 25px;
+}
+
+p:hover{
+    color: yellow;
+    transition: 6s;
+}
+
+.iniciarBatalha:hover{
+    cursor: pointer;
+    color: yellow;
+    transition: 0s;
+}
+
+
+
