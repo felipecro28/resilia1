@@ -1,0 +1,82 @@
+body{
+    background-image: url(img/forbiddenflorest2.jpg);
+    background-size: cover;
+}
+
+h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgba(241, 245, 9, 0.993);
+    font-family: 'Henny Penny', cursive;
+    font-size: 45px;
+    text-align: center;
+}
+
+.paragrafos{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(248, 245, 245, 0.404);
+    border: solid 4px;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+p{
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Henny Penny', cursive;
+    text-align: center;
+}
+
+.iniciarBatalha{
+    font-size: 25px;
+}
+
+p:hover{
+    color: yellow;
+    transition: 6s;
+}
+
+.iniciarBatalha:hover{
+    cursor: pointer;
+    color: yellow;
+    transition: 0s;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+ }
+button {
+   --button_radius: 0.75em;
+   --button_color: #e8e8e8;
+   --button_outline_color: #000000;
+   font-size: 17px;
+   font-family: 'Henny Penny', cursive;
+   font-weight: bold;
+   border: none;
+   border-radius: var(--button_radius);
+   background: var(--button_outline_color);
+  }
+  .button_top {
+   display: block;
+   box-sizing: border-box;
+   border: 2px solid var(--button_outline_color);
+   border-radius: var(--button_radius);
+   padding: 0.75em 1.5em;
+   background: var(--button_color);
+   color: var(--button_outline_color);
+   transform: translateY(-0.2em);
+   transition: transform 0.1s ease;
+  }
+  
+  button:hover .button_top {
+   transform: translateY(-0.33em);
+  }
+  
+  button:active .button_top {
+   transform: translateY(0);
+  }
