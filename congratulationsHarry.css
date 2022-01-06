@@ -52,7 +52,7 @@ form{
     border: solid 4px black;
     border-radius: 20px;
     cursor: pointer;
-    padding: 7px;
+    padding: 6px;
 }
 
 .botaoReiniciar:hover{
