@@ -8,7 +8,7 @@ h1{
     text-decoration: underline;
     color: rgb(230, 226, 13);
     font-family: 'Henny Penny', cursive;
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -19,8 +19,8 @@ h1{
     border: solid 4px;
     font-weight: bolder;
     font-size: 16px;
-    margin: 90px 0px 60px 70px;
-    padding: 10px 20px;
+    margin: 10px 0px 10px 5px;
+    padding: 8px;
 }
 
 p{
@@ -31,7 +31,7 @@ p{
 }
 
 .fraseMedo{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 form{
