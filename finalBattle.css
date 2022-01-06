@@ -1,0 +1,48 @@
+body{
+    background-image: url(img/finalbattle.jpg);
+    background-size: cover;
+}
+
+h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgba(241, 245, 9, 0.993);
+    font-family: 'Henny Penny', cursive;
+    font-size: 45px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.paragrafos{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(248, 245, 245, 0.404);
+    border: solid 4px;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-left: 255px;
+    padding: 20px;
+}
+
+.pressione{
+    font-size: 10px;
+}
+
+p{
+    text-transform: uppercase;
+    color: rgb(99, 21, 21);
+    font-family: 'Henny Penny', cursive;
+    text-align: center;
+}
+
+
+p:hover{
+    color: yellow;
+    transition: 6s;
+}
+
+.profecia{
+    font-size: 16px;
+}
+
+
