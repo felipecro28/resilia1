@@ -1,0 +1,48 @@
+body{
+    background-image: url(img/torre.jpg);
+    background-size: cover;
+}
+
+h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgba(54, 167, 54, 0.993);
+    font-family: 'Henny Penny', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.paragrafos{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(123, 167, 120, 0.521);
+    border: solid 4px green;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-left: 210px;
+    padding: 10px 25px;
+}
+
+p{
+    text-transform: uppercase;
+    color: rgb(9, 41, 11);
+    font-family: 'Henny Penny', cursive;
+    text-align: center;
+}
+
+.iniciarBatalha{
+    font-size: 25px;
+}
+
+p:hover{
+    color: rgb(0, 0, 0);
+    transition: 6s;
+}
+
+.iniciarBatalha:hover{
+    cursor: pointer;
+    color: yellow;
+    transition: 0s;
+}
+
