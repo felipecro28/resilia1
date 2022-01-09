@@ -54,6 +54,11 @@ Ele pode 1 - Desistir do plano e contar tudo, 2 - Sacar a varinha e começar um 
             alert("Dumbledore: Enviarei dementadores à floresta e Hogwarts estará salva! Obrigado, Draco.")
             alert("... Você salvou a escola!")
             return location = ("congratulationsDraco.html")
-        }
+        } else if (decisao == 2)
+        alert("Draco: AVADA KEDAVRA!!!!")
+        alert("Dumbledore: Dra... - co....")
+        alert("(barulho de queda)")
+        alert("...")
+        return location =("gameOverDraco.html")
     }
 }
