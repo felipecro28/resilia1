@@ -20,7 +20,7 @@ function ouvirMelhor(){
         alert('É Bellatrix! Ela está com Neville!')
         alert ('EXPELLIARMUS!!!!!')
         alert ('BELATRIX: AVADA KEDAVRA!!!');
-        return location = ('gameover3.html')
+        return location = ('gameOver3.html')
     } 
     
     else {
