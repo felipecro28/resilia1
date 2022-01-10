@@ -9,7 +9,7 @@ O garoto que sobreviveu, veio para morrer.`);
 vá atrás de Voldemort!`);
 
     decisao = prompt(`A armada está em apuros, mas Harry deve enfrentar Voldemort sozinho.
-Digite 1 - ir atrás de Voldemort, ou 2 - juntar-se a Armada`);
+Digite 1 - ir atrás de Voldemort, ou 2 - juntar-se a Armada.`);
     
     while (decisao != 1 && decisao !=2){
 
@@ -19,18 +19,18 @@ Digite 1 - ir atrás de Voldemort, ou 2 - juntar-se a Armada`);
     } if (decisao == 1){
 
         alert(`Voldemort: Eu sabia que você me seguiria, criança...
-Parece que a profecia está prestes a ser cumprida`);
+Parece que a profecia está prestes a ser cumprida.`);
 
-        alert(`Voldemort: Você deveria estar em meu exérciro, Harry! Nós seriamos grandiosos`);
-        alert(`Voldemort: Mas já que não é assim....AVADA KEDAVRA....`);
+        alert(`Voldemort: Você deveria estar em meu exérciro, Harry! Nós seriamos grandiosos!`);
+        alert(`Voldemort: Mas já que não é assim....AVADA KEDAVRA!!....`);
 
         decisao = prompt(`O feitiço de Voldemort está prestes a te acertar.
-Digite 1 - pegar um escudo no chão e se defender, 2 - pular para a esquerda`);
+Digite 1 - pegar um escudo no chão e se defender, 2 - pular para a esquerda.`);
 
         if(decisao == 1){
 
             alert("Ah não... esse escudo não vai aguentar por muito tempo..")
-            return location ("fimDeJogo.html")
+            return location = ("fimDeJogo.html")
 
         } if(decisao == 2){
 

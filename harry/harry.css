@@ -1,14 +1,14 @@
 body{
+    background-image: url(../img/harry.jpg);
     background-size: cover;
-    background-image: url(img/gameover1.jpg);
 }
 
 h1{
     text-transform: uppercase;
     text-decoration: underline;
-    color: rgb(230, 226, 13);
+    color: rgba(241, 245, 9, 0.993);
     font-family: 'Henny Penny', cursive;
-    font-size: 60px;
+    font-size: 45px;
     text-align: center;
 }
 
@@ -18,8 +18,8 @@ h1{
     background-color: rgba(248, 245, 245, 0.404);
     border: solid 4px;
     font-weight: bolder;
-    font-size: 16px;
-    margin-left: 2px;
+    font-size: 12px;
+    margin-left: 110px;
     padding: 10px 20px;
 }
 
@@ -30,8 +30,14 @@ p{
     text-align: center;
 }
 
-.fraseMedo{
-    font-size: 18px;
+.cicatriz{
+    font-size: 15px;
+    font-style: italic;
+}
+
+#oQueDeseja{
+    font-size: 20px;
+    font-style: italic;
 }
 
 form{
@@ -40,21 +46,20 @@ form{
     margin-top: 35px;
 }
 
-.botaoReiniciar{
+.botaoSeguir{
     text-align: center;
     width: fit-content;
     text-decoration: none;
     font-family: 'Henny Penny', cursive;
-    font-size: 20px;
-    color: rgba(0, 0, 0, 0.795);
+    font-size: 24px;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
-    background-color:rgba(255, 255, 255, 0.534);
+    background-color:rgba(241, 245, 9, 0.493);
     border: solid 4px black;
     border-radius: 20px;
     cursor: pointer;
-    padding: 7px;
 }
 
-.botaoReiniciar:hover{
-    background-color: white;
+.botaoSeguir:hover{
+    background-color:rgb(241, 245, 9);
 }

@@ -1,12 +1,12 @@
 body{
     background-size: cover;
-    background-image: url(img/gameover1.jpg);
+    background-image: url(../img/gameover-florest.jpg);
 }
 
 h1{
     text-transform: uppercase;
     text-decoration: underline;
-    color: rgba(241, 245, 9, 0.993);
+    color: rgba(22, 29, 31, 0.993);
     font-family: 'Henny Penny', cursive;
     font-size: 60px;
     text-align: center;
@@ -19,7 +19,7 @@ h1{
     border: solid 4px;
     font-weight: bolder;
     font-size: 16px;
-    margin-left: 130px;
+    margin-left: 190px;
     padding: 10px 20px;
 }
 
@@ -31,7 +31,7 @@ p{
 }
 
 .fraseMedo{
-    font-size: 32px;
+    font-size: 18px;
 }
 
 form{
@@ -45,13 +45,14 @@ form{
     width: fit-content;
     text-decoration: none;
     font-family: 'Henny Penny', cursive;
-    font-size: 24px;
+    font-size: 20px;
     color: rgba(0, 0, 0, 0.795);
     text-transform: uppercase;
     background-color:rgba(255, 255, 255, 0.534);
     border: solid 4px black;
     border-radius: 20px;
     cursor: pointer;
+    padding: 7px;
 }
 
 .botaoReiniciar:hover{
