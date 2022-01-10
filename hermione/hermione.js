@@ -27,7 +27,7 @@ function viscoDoDiabo(){
     
     else if (decisao == 2){
         alert("AH NÃO.. O Visco do Diabo é sensível a luz. Você usou o feitiço errado")
-        return location =("gameOverVisco.html")
+        return location =("gameOverViscodoDiabo.html")
     }
     
 }
