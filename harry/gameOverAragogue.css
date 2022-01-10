@@ -1,12 +1,12 @@
 body{
     background-size: cover;
-    background-image: url(img/gameover-florest.jpg);
+    background-image: url(../img/gameover_aragogue.png);
 }
 
 h1{
     text-transform: uppercase;
     text-decoration: underline;
-    color: rgba(22, 29, 31, 0.993);
+    color: rgba(241, 245, 9, 0.993);
     font-family: 'Henny Penny', cursive;
     font-size: 60px;
     text-align: center;
@@ -19,7 +19,7 @@ h1{
     border: solid 4px;
     font-weight: bolder;
     font-size: 16px;
-    margin-left: 230px;
+    margin-left: 190px;
     padding: 10px 20px;
 }
 
@@ -31,7 +31,7 @@ p{
 }
 
 .fraseMedo{
-    font-size: 18px;
+    font-size: 32px;
 }
 
 form{
