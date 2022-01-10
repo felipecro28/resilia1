@@ -7,7 +7,7 @@ function ouvirMelhor(){
     alert('Harry: AH NÃO!! A Armada de Dumbledore está comprometida!')
     alert('Rony: Podemos retornar a escola e ajudar o exército de Dumbledore ou forçar o combate agora mesmo!')
 
-    decisao = prompt('Digite 1 - retornar e ajudar o exército, ou 2 - enfrentar os comensais da morte')
+    decisao = prompt('Digite 1 - retornar e ajudar o exército, ou 2 - enfrentar os comensais da morte.')
 
     if (decisao == 1){
         alert('Harry: Ok...vamos por aqui, conheço um atalho.')

@@ -18,7 +18,7 @@ h1{
     background-color: rgba(248, 245, 245, 0.308);
     border: solid 4px;
     font-size: 16px;
-    margin-left: 130px;
+    margin-left: 170px;
     padding: 8px;
 }
 
@@ -37,6 +37,7 @@ form{
     display: flex;
     justify-content: space-around;
     margin-top: 35px;
+    margin-left: 50px;
 }
 
 .botaoReiniciar{
