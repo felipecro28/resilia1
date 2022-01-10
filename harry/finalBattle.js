@@ -44,7 +44,7 @@ Digite 1 - pegar um escudo no chão e se defender, 2 - pular para a esquerda.`);
                 return location = ("congratulationsHarry.html")
 
             } if(decisao==2){
-                alert("Ah não, esse feitiço serve para curar feridas específicas")
+                alert("Ah não, esse feitiço serve para curar feridas específicas.")
                 alert("Voldemort: AVADA KEDAVRA!!!!!")
                 alert("...")
                 return location = ("fimDeJogo.html")

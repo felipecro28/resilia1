@@ -10,7 +10,7 @@ function dumbledoreAcao()
     alert (`Dumbledore: Draco, meu filho, me ajude a destruir esse mal, 
 tenho certeza de que existe um lugar especial para você em Hogwarts!`)
     decisao = prompt(`Draco precisa responder Dumbledore.
-Ele pode 1 - Desistir do plano e contar tudo, 2 - Sacar a varinha e começar um duelo`);
+Ele pode 1 - Desistir do plano e contar tudo, 2 - Sacar a varinha e começar um duelo.`);
 
     while(decisao != 1 && decisao !=2)
      {
